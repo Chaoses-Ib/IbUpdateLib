@@ -1,4 +1,6 @@
 # IbUpdateLib/.NET
+[![NuGet](http://img.shields.io/nuget/v/Ib.Update.svg)](https://www.nuget.org/packages/Ib.Update)
+
 Usage:
 ```csharp
 using System;
