@@ -1,7 +1,8 @@
 # IbUpdateLib/.NET
 Usage:
 ```csharp
-using Update;
+using System;
+using Ib.Update;
 
 try
 {

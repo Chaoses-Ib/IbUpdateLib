@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Octokit;
 using NuGet.Versioning;
 
-namespace Update
+namespace Ib.Update
 {
     public class GitHubUpdater
     {

@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Update;
+using Ib.Update;
 using System.Threading.Tasks;
 
 namespace Test

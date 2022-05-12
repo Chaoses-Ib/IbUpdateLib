@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateLib", "UpdateLib\UpdateLib.csproj", "{C6CEE7FB-D8C4-40F6-BD51-4FDA404550EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ib.Update", "Ib.Update\Ib.Update.csproj", "{C6CEE7FB-D8C4-40F6-BD51-4FDA404550EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{5E5C3CC9-1976-4A4C-9B54-5CE8C6141819}"
 EndProject

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/Chaoses-Ib/IbUpdateLib.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/Chaoses-Ib/IbUpdateLib</PackageProjectUrl>
+    <Authors>Chaoses</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>update;github</PackageTags>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <AssemblyVersion>$(VersionSuffix)</AssemblyVersion>
+    <FileVersion>$(VersionSuffix)</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>A lightweight software update library.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(SolutionDir)README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Versioning" Version="6.1.0" />
+    <PackageReference Include="Octokit" Version="0.51.0" />
+  </ItemGroup>
+
+</Project>

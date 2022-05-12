@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UpdateLib\UpdateLib.csproj" />
+    <ProjectReference Include="..\Ib.Update\Ib.Update.csproj" />
   </ItemGroup>
 
 </Project>
